@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Connect - Alumni Network Bridge</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        nav {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    scrollbar-color: blue transparent;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+
+nav::-webkit-scrollbar {
+    height: 8px;
+}
+
+nav::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 5px;
+}
+
+nav::-webkit-scrollbar-track {
+    background: lightgray;
+}
+
+.button-container {
+    display: inline-block;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}
+
+.active {
+    background-color: navy;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alumni Network Bridge</h1>
+    </header>
+
+    <nav>
+        <div class="button-container">
+            <a href="home.html" class="btn">Home</a>
+            <a href="events.html" class="btn">Events</a>
+            <a href="notes.html" class="btn">Notes</a>
+            <a href="memories.html" class="btn">Memories</a>
+            <a href="studentconnect.html" class="btn active">Student Connect</a>
+            <a href="donation.html" class="btn">Donation</a>
+            <a href="reunion.html" class="btn">Reunion & Meetups</a>
+            <a href="usefullinks.html" class="btn">Useful Links</a>
+            <a href="feedback.html" class="btn">Feedback</a>
+        </div>
+    </nav>
+
+    <main>
+        <title>Students Connect</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 20px;
+            }
+            .student-card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                background: white;
+                border-radius: 10px;
+                padding: 20px;
+                margin-bottom: 15px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                width: 300px; /* Fixed width for better alignment */
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .student-photo {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 3px solid #ddd;
+                margin-bottom: 10px;
+            }
+            .student-info h3, 
+            .student-info p {
+                margin: 5px 0;
+                color: #333;
+            }
+            .buttons {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+                margin-top: 10px;
+            }
+            .buttons a {
+                text-decoration: none;
+                padding: 8px 12px;
+                border-radius: 5px;
+                font-size: 14px;
+                color: white;
+                width: 120px; /* Ensures uniform button size */
+                text-align: center;
+            }
+            .linkedin { background: #0077b5; }
+            .call { background: #28a745; }
+            .message { background: #17a2b8; }
+            .email { background: #dc3545; }
+        </style>
+    </head>
+    <body>
+    
+        <div class="student-card">
+            <img src="https://res.cloudinary.com/dhllqd8gp/image/upload/v1742835534/WhatsApp_Image_2025-03-24_at_10.06.42_PM_xxdqbk.jpg" alt="Student Photo" class="student-photo">
+            <div class="student-info">
+                <h3>ABISHEK P</h3>
+                <p>Batch: 2022-2025</p>
+                <p>About Alumni: Web Developer at  TCS</p>
+                <div class="buttons">
+                    <a href="https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=abishek-abishek-93024a2a6" class="linkedin">LinkedIn</a>
+                    <a href="tel:+916379279916" class="call">Call</a>
+                    <a href="https://wa.me/916379279916" class="message">Message</a>
+                    <a href="mailto:abishek28622004@gmail.com" class="email">Email</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="student-card">
+            <img src="https://res.cloudinary.com/dhllqd8gp/image/upload/v1742730269/WhatsApp_Image_2025-03-23_at_5.13.00_PM_wa1ulg.jpg" alt="Student Photo" class="student-photo">
+            <div class="student-info">
+                <h3>LOKESH K</h3>
+                <p>Batch: 2022-2025</p>
+                <p>About Alumni: Software Engineer at WIBRO</p>
+                <div class="buttons">
+                    <a href="https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=lokesh-k-a062452a6" class="linkedin">LinkedIn</a>
+                    <a href="tel:+919363166849" class="call">Call</a>
+                    <a href="https://wa.me/919363166849" class="message">Message</a>
+                    <a href="mailto:logi02072005@gmail.com" class="email">Email</a>
+                </div>
+            </div>
+        </div>
+         
+        <div class="student-card">
+            <img src="https://res.cloudinary.com/dhllqd8gp/image/upload/v1742962337/WhatsApp_Image_2025-03-26_at_9.38.35_AM_dx2znt.jpg" alt="Student Photo" class="student-photo">
+            <div class="student-info">
+                <h3>NAVEEN M</h3>
+                <p>Batch: 2022-2025</p>
+                <p>About Alumni: Software Developer at infosys</p>
+                <div class="buttons">
+                    <a href="https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=naveen-msd-1ba946262" class="linkedin">LinkedIn</a>
+                    <a href="tel:+917904625740" class="call">Call</a>
+                    <a href="https://wa.me/917904625740" class="message">Message</a>
+                    <a href="mailto:naveenjayaraj07@gmail.com" class="email">Email</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="student-card">
+            <img src="https://res.cloudinary.com/dhllqd8gp/image/upload/v1742833173/WhatsApp_Image_2025-03-24_at_8.28.29_PM_udkuut.jpg" alt="Student Photo" class="student-photo">
+            <div class="student-info">
+                <h3>RAKESH K</h3>
+                <p>Batch: 2022-2025</p>
+                <p>About Alumni: AI Expert at GOOGLE</p>
+                <div class="buttons">
+                    <a href="" class="linkedin">LinkedIn</a>
+                    <a href="tel:+918220393674" class="call">Call</a>
+                    <a href="https://wa.me/8220393674" class="message">Message</a>
+                    <a href="mailto:Rakeshameer680@gmail.com" class="email">Email</a>
+                </div>
+            </div>
+        </div>
+
+        
+    </body>
+    </html>
+        <!-- Repeat the student-profile block for more students -->
+    </main>
+
+    
+</body>
+</html>

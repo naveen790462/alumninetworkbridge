@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reunion & Meetups - Alumni Network Connect</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        nav {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    scrollbar-color: blue transparent;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+
+nav::-webkit-scrollbar {
+    height: 8px;
+}
+
+nav::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 5px;
+}
+
+nav::-webkit-scrollbar-track {
+    background: lightgray;
+}
+
+.button-container {
+    display: inline-block;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}
+
+.active {
+    background-color: navy;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alumni Network Bridge</h1>
+    </header>
+
+    <nav>
+        <div class="button-container">
+            <a href="home.html" class="btn">Home</a>
+            <a href="events.html" class="btn">Events</a>
+            <a href="notes.html" class="btn">Notes</a>
+            <a href="memories.html" class="btn">Memories</a>
+            <a href="studentconnect.html" class="btn">Student Connect</a>
+            <a href="donation.html" class="btn">Donation</a>
+            <a href="reunion.html" class="btn active">Reunion & Meetups</a>
+            <a href="usefullinks.html" class="btn">Useful Links</a>
+            <a href="feedback.html" class="btn">Feedback</a>
+        </div>
+    </nav>
+
+    <main>
+        <h2>Reunion & Meetups</h2>
+        <p>Join us for upcoming alumni gatherings and reconnect with old friends.</p>
+
+        <!-- Reunion Event: Graduation Day -->
+        <div class="reunion-event">
+            <h3>Graduation Day</h3>
+            <div class="event-details">
+                <img src="https://res.cloudinary.com/dhllqd8gp/image/upload/v1742023506/WhatsApp_Image_2025-03-15_at_3.22.36_AM_gjhhes.jpg" alt="Graduation Day">
+                <div class="event-info">
+                    <p><strong>Place:</strong> Cheyyar</p>
+                    <p><strong>Date:</strong> 1st May 2025</p>
+                    <p><strong>Time:</strong> 9:00 AM</p>
+                </div>
+            </div>
+            <div class="event-buttons">
+                <a href="https://maps.app.goo.gl/MmAj3abbjr1anrR48" target="_blank" class="btn location-btn">Location</a>
+                <a href="https://call.whatsapp.com/voice/leKzL7v5AoaAq3Md19iDZ8" class="btn call-btn">Call  Organizer</a>
+            </div>
+        </div>
+
+        <!-- Add more reunion events here if needed -->
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Alumni Network Bridge</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        nav {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    scrollbar-color: blue transparent;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+
+nav::-webkit-scrollbar {
+    height: 8px;
+}
+
+nav::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 5px;
+}
+
+nav::-webkit-scrollbar-track {
+    background: lightgray;
+}
+
+.button-container {
+    display: inline-block;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}
+
+.active {
+    background-color: navy;
+}
+    </style>
+    <script>
+        function updateCharCount() {
+            let feedback = document.getElementById("feedback");
+            let count = document.getElementById("charCount");
+            count.innerText = feedback.value.length + "/100";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Alumni Network Bridge</h1>
+    </header>
+
+    <nav>
+        <div class="button-container">
+            <a href="home.html" class="btn">Home</a>
+            <a href="events.html" class="btn">Events</a>
+            <a href="notes.html" class="btn">Notes</a>
+            <a href="memories.html" class="btn">Memories</a>
+            <a href="studentconnect.html" class="btn">Student Connect</a>
+            <a href="donation.html" class="btn">Donation</a>
+            <a href="reunion.html" class="btn">Reunion & Meetups</a>
+            <a href="usefullinks.html" class="btn">Useful Links</a>
+            <a href="feedback.html" class="btn active">About us</a>
+        </div>
+    </nav>
+
+    <main>
+        <h2>GET TO KNOW US</h2>
+        <p>We are final-year BCA students (Batch 2022-2025) from Arignar Anna Arts and Science College.As part of our passion for technology and community building, we have developed the Alumni Network Bridge—a platform designed to strengthen the connection between alumni and current students.
+        </p>
+        <h2>Why Alumni Netwotk Bridge?
+        </h2><p>Our goal is to simplify networking between alumni and students, making it easier to share opportunities, knowledge, and experiences. This bridge fosters career growth, keeps memories alive, and supports our college community.</p>
+        <h2>Whats Inside?</h2>
+        <p>1. Events: Stay updated with upcoming events and job opportunities.<br>
+
+
+            2. Notes: Access useful study materials to help with exams.<br>
+            
+            
+            3. Memories: Relive unforgettable moments from college life.<br>
+            
+            
+            4. Student Connect: Easily network with alumni for career guidance.<br>
+            
+            
+            5. Donation: Contribute to upgrading department resources.<br>
+            
+            
+            6. Reunion & Meetups:  Plan and organize future gatherings.<br>
+            
+            
+            7. Useful Links: Access helpful websites and group links for growth.<br>
+            
+            
+            8. About Us:  know who we are and our vision</p>
+            <h2>Share Your Resources</h2>
+            <p>Help us to Get Resources easier!if you have photos,study materials,or any valuable resources,please share them with our team.</p>
+          </p>
+          <h3>Email us at:</h3><p>
+          Abishek P:abishek2862004@gmail.com<br>
+          Lokesh k :logi2072005@gmail.com  <br>
+          Naveen M :naveenjayaraj07@gmail.com<br>
+          Rakesh M :rakeshameer680@gmail.com<br>
+
+          <h2>WE VALUE YOUR FEEDBACK</h2>
+          <P>Thank you for being a part of the Alumni Network Bridge. Your feedback is important to us as we strive to improve and make this platform more useful for everyone.<br>
+
+            📢 Have suggestions, ideas, or improvements? Let us know! Your input will help us enhance the experience for both alumni and students.</P>
+            
+
+<a href="aboutus.html" 
+   class="btn"
+   style="background-color: blue; color: white; padding: 10px 15px; text-decoration: none; display: inline-block; margin-top: 10px;">
+   Share Feedback
+</a>
+
+            <p>We appreciate your time and Support!</p>
+            <h3>TEAM ALUMNI NETWORK BRIDGE</h3>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Alumni Network Bridge. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
